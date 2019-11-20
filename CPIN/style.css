@@ -1,0 +1,460 @@
+#navbar1{ 
+    padding-left:0px;
+    background-color:#95A8A2;
+    display:block;
+    width: 100%;
+    transition: width 350ms ease-in;
+    margin-top: -1px;
+}
+.clearfix{
+    clear:both;
+}
+.donation{
+    display:block;
+    text-align: center;
+    padding:12px 0px;
+}
+.dn8pg{
+    display:none;
+}
+.s-btn{
+    margin-bottom:45px;
+}
+
+#mnubtn{
+    width: 37px;
+    height: 42px;
+    padding: 20px;
+    display: inline-block;
+    background-color: #ffffff;
+    border: 2px solid #ee7560;
+    margin-bottom:10px;
+}
+li{
+    padding:10px 21px;
+}
+#navbar2{
+    display:none;
+}
+.content {
+    border-radius: 5px;
+    border: 2px solid white;
+    box-shadow: 2px 3px 6px -2px gray;
+    padding: 25px;
+    position: relative;
+}
+.content-2 {
+    border-radius: 5px;
+    border-top: 5px solid #EE7560;
+    box-shadow: 2px 3px 6px -2px gray;
+    background-color:#95A8A2;
+    padding: 25px;
+    position: relative;
+}
+
+.dn8lingo{
+    background-color:#95A8A2;
+    padding: 35.46px;
+}
+
+.form-top{
+    margin-top:45px;
+}
+.donation-amount1 input,.donation-amount2 input,.donation-amount3 input,.donation-amount4 input{
+    opacity:0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.ui-radio input{
+    opacity:0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.donation-amount1,.donation-amount2{
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 29px;
+}
+.donation-amount3,.donation-amount4{
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 29px;
+}
+.monthly-gift{
+    display:none;
+}
+.ui-button{
+    border: 2px solid #95A8A2;
+    background-color:#ffffff;
+    position: relative;
+    cursor: pointer;
+}
+.button{
+    padding: 9px 0px;
+    margin:10px auto;
+    border-radius: 15px;
+    position: relative;
+    width:100px;
+    text-align: center;
+    cursor: pointer;
+}
+.dn8-input{
+    position: absolute;
+    left: 40px;
+}
+.ui-check{
+    border: 3px solid #EE7560;
+    width:100px;
+    position: absolute;
+    top: -13px;
+    left: -3px;
+    height: 13px;
+    display:none;
+}
+.ui-button input:checked ~ .ui-check {
+    border: 3px solid #EE7560;
+    display:block;
+}
+.ui-button input:checked ~ .ui-check:after {
+    display: block;
+}
+.ui-button.button:hover {
+    background-color: antiquewhite;
+}
+.sendsection{
+    margin-top: 22px;
+    flex-grow: 2;
+    width: 100%;
+    
+}
+.info-section{
+    flex-direction: row;
+}
+
+.form-mat{
+    display: inline-block;
+    background-color: #95a8a2;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin: 13px 27px;
+    padding: 4px 6px;
+}
+
+.bannerimg{
+    width:100%;
+}
+.fill-left{
+    display: inline-block;
+    height: 30px;
+    width: 2%;
+}
+.fill-gap{
+    display: inline-block;
+    width: 30%;
+    height: 30px;
+    transition: 95ms ease-in-out; 
+    margin-right:10px;
+    
+}
+.donation{
+    background-color: #51768C;
+    width:100%;
+}
+.donation a{
+    text-decoration:none;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 800;
+    font-family: "Oswald",Arial, Helvetica, sans-serif;
+    letter-spacing:1.5px;
+    transition: 300ms ease;
+}
+.navfix{
+    margin-bottom: 25px;
+}
+.p-rel{
+    position: relative;
+}
+#logo{
+    margin-right: 15px;
+    height:95px;
+    width:119px;
+    display: inline-block;
+    transition: 200ms ease-in-out;
+}
+#ln1{
+    background-color:#EE7560;
+    height:5px;
+    width:12%;
+}
+#ln2{
+    background-color:#EE7560;
+    height:5px;
+    width:12%;
+}
+.line{
+    display: inline-block;
+    height: 5px;
+    width: 12%;
+    background-color: #EE7560;
+    margin: 0px 29px 7px 29px;
+}
+.t-overlay{
+    position: absolute;
+    color:#ffffff;
+    z-index: 2;
+    top: 91px;
+    left: 18px;
+    cursor: pointer;
+}
+.gradient-overlay{
+    background-image: linear-gradient(to bottom, rgba(66, 89, 100, .50), rgba(66, 89, 100, .15));
+    background-blend-mode: overlay;
+    position: absolute;
+    z-index: 1;
+    background-size: cover;
+    top: 0px;
+    left:0px;
+    height:100%;
+    width:100%;
+}
+.foot{
+    display:block;
+    width:100%;
+    background-color: #435964;
+    color:#ffffff;
+    text-align: center;
+    padding:20px 0px;
+    font-size:1.5em;
+    font-family:"Crimson Text",Georgia, 'Times New Roman', Times, serif;
+    margin-top: 85px;
+}
+.none{
+    display:none;
+}
+#submit-text{
+    display:none;
+    background-color: #ee7560;
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+}
+.tela{
+    text-decoration:none;
+    color:#ffffff;
+}
+.about-c{
+    background-color:#95A8A2;
+}
+.blgline{
+    border-bottom: 2px dotted #EE7560;
+}
+.linkcolor{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #435964;
+    width: 50%;
+}
+.linkcolor a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 2.4em;
+    letter-spacing: 2.5px;
+}
+.bkgimg1{
+    background-image: url("assets/images/farmers-market-1.jpg");
+    height:215px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.bkgimg2{
+    background-image: url("assets/images/classphoto.jpg");
+    height:215px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.bkgimg3{
+    background-image: url("assets/images/programs.jpg");
+    height:215px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+/* *********display headers in block width 100%******** */
+.widthAll{
+    display: block;
+    width: 100%;
+}
+.ui-radio{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    margin:10px 40px;
+    box-sizing: border-box;
+}
+.circle{
+    border-radius:50%;
+    top: 3px;
+    left: -29px;
+    height: 25px;
+    width: 25px;
+}
+.ui-radio inputs{
+    opacity:0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.radio-check{
+    border: 3px solid #EE7560;
+    border-radius: 50%;
+    display:none;
+}
+.ui-radio input:checked ~ .radio-check {
+    border: 3px solid #EE7560;
+    display:block;
+    padding: 10px;
+    top: -1px;
+    position: absolute;
+    left: -1px;
+}
+.ui-radio input:checked ~ .radio-check:after {
+    display: block;
+}
+.ui-radio:hover {
+    background-color: antiquewhite;
+}
+.ui-radio input{
+    position: absolute;
+    top: 2px;
+    left: -1px;
+}
+.label-month{
+    position: absolute;
+    top:10px;
+    left:50px;
+}
+.label-once{
+    position: absolute;
+    top:10px;
+    left:50px;
+}
+@media (min-width:425px){
+    .fill-gap{
+        display: inline-block;
+        width: 40%;
+        height: 30px; 
+        transition: 95ms ease-in-out; 
+    }
+}
+@media (min-width:555px){
+    .fill-gap{
+        display: inline-block;
+        width: 50%;
+        height: 30px;
+        transition: 95ms ease-in-out; 
+        margin-right:10px;
+    }
+    .bkgimg3{
+        height:340px;
+    }
+    .bkgimg2{
+        height:340px;
+    }
+    .bkgimg1{
+        height:340px;
+    }
+}    
+@media (min-width:655px){
+    .fill-gap{
+        display: inline-block;
+        width: 55%;
+        height: 30px;
+        transition: 95ms ease-in-out; 
+        margin-right:10px;
+    }
+}
+@media (min-width:768px){
+    #navbar1{
+        display:none;
+    }
+    #navbar2{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 97px;
+        z-index: 1;
+        left: 25%;
+        width: 69%;
+        margin: 17px -20px;
+    }
+    .dn8pg{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 35px;
+        z-index: 1;
+        left: 25%;
+        width: 69%;
+        margin: 17px -20px;
+    }
+    .flex-bar{
+        display:flex
+    }
+    .flex-sbar{
+        display:none;
+    }
+    .donation a{
+        text-decoration:none;
+        color: #ffffff;
+        font-size: 2.5em;
+        font-weight: 800;
+        transition: 300ms ease;
+    }
+    #logo{
+        height: 119px;
+        width: 155px;
+        transition: 95ms ease-in-out;
+    }
+    .gradient-overlay{
+        width:100%;
+        height:100%;
+    }
+    .t-overlay{
+        top:134px;
+        left: 98px;
+    }
+    .bkgimg3{
+        height:354px;
+    }
+    .bkgimg2{
+        height:354px;
+    }
+    .bkgimg1{
+        height:354px;
+    }
+    @media (min-width:992px){
+        .dn8lingo{
+            background-color:#95A8A2;
+            padding: 88.2px 35px;
+        }
+    }
+}
+
